@@ -48,10 +48,18 @@ header .container {
 }
 
 h1 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     font-weight: 700;
     color: var(--primary);
     font-size: 1.6rem;
     letter-spacing: -0.5px;
+}
+
+h1 i {
+    font-size: 1.4rem;
+    opacity: 0.9;
 }
 
 nav ul {
@@ -170,6 +178,12 @@ nav ul li a:hover {
 .card-content {
     padding: 25px;
     text-align: center;
+}
+
+.card-content h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: var(--text-main);
 }
 
 .card-content .whatsapp-btn {
